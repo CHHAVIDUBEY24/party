@@ -47,7 +47,7 @@
         <moqui.basic.EnumerationType description="Contact Mechanism Type" enumTypeId="ContactType"/>
         <moqui.basic.Enumeration description="EMAIL" enumId="EMAIL" enumTypeId="ContactType"/>
         <moqui.basic.Enumeration description="PHONE" enumId="TELECOM_NUMBER" enumTypeId="ContactType"/>
-        <moqui.basic.Enumeration description="POSTAL_ADDRESS" enumId="TELECOM_NUMBER" enumTypeId="ContactType"/>
+        <moqui.basic.Enumeration description="POSTAL_ADDRESS" enumId="POSTAL_ADDRESS" enumTypeId="ContactType"/>
     </seed-data>
 </entity>
 
@@ -60,6 +60,7 @@
             <key-map field-name="partyId"/>
         </relationship>
     </entity>
+
 
 
 </entities>
