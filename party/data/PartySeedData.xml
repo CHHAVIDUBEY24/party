@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed">
+
+    <!--Person Party-->
+    <party.Party partyId="P1" partyTypeEnumId="PERSON"/>
+    <party.Person partyId="P1" firstName="Chhavi" lastName="Dubey" dateOfBirth="2004-04-24"/>
+
+    <!--Party_Group-->
+    <party.Party partyId="G2" partyTypeEnumId="PARTY_GROUP"/>
+    <party.PartyGroup partyId="G2" groupName="Hotwax Commerce" description="IT service company"/>
+
+    <!--Contact Mechanism-->
+    <party.ContactMech contactMechId="CM1" contactMechTypeId="EMAIL" infoString="chhavidubey.@test.com"/>
+    <party.ContactMech contactMechId="CM2" contactMechTypeId="TELECOM_NUMBER" infoString="+91-970000000"/>
+
+
+    <!--PartyContactMech-->
+    <party.PartyContactMech partyId="P1" contactMechId="CM1" fromDate="2024-01-01T00:00:00" thruDate="2025-01-01T00:00:00"/>
+    <party.PartyContactMech partyId="P1" contactMechId="CM2" fromDate="2025-01-01T00:00:00"/>
+
+</entity-facade-xml>

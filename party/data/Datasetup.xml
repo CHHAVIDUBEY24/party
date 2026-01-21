@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-facade-xml type="seed">
+    <moqui.security.ArtifactGroup artifactGroupId="TUT_APP"
+                                  description="PARTY App (via root screen)"/>
+
+    <moqui.security.ArtifactGroupMember artifactGroupId="TUT_APP"
+                                        artifactName="/person"
+                                        artifactTypeEnumId="AT_REST_PATH"
+                                        inheritAuthz="Y"/>
+</entity-facade-xml>
