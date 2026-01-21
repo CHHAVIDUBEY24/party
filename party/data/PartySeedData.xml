@@ -17,5 +17,7 @@
     <!--PartyContactMech-->
     <party.PartyContactMech partyId="P1" contactMechId="CM1" fromDate="2024-01-01T00:00:00" thruDate="2025-01-01T00:00:00"/>
     <party.PartyContactMech partyId="P1" contactMechId="CM2" fromDate="2025-01-01T00:00:00"/>
+     <party.ContactMech contactMechId="CM3" contactMechTypeId="POSTAL_ADDRESS" infoString="A28"/>
+
 
 </entity-facade-xml>
