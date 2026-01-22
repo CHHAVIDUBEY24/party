@@ -7,4 +7,9 @@
                                         artifactName="/person"
                                         artifactTypeEnumId="AT_REST_PATH"
                                         inheritAuthz="Y"/>
+
+    <moqui.security.ArtifactAuthz artifactAuthzId="TUT_ALL"
+                                  userGroupId="ALL_USERS" artifactGroupId="TUT_APP"
+                                  authzTypeEnumId="AUTHZT_ALWAYS" authzActionEnumId="AUTHZA_ALL"/>
+
 </entity-facade-xml>
